@@ -5,7 +5,7 @@ public class FixDebugTwo3 {
         long c = 777777777777L;
         result = a % b;
         System.out.println("Divide " + a + " by " + b);
-        System.out.println("remainder is " + a);
+        System.out.println("remainder is " + result);
         System.out.print("c is a very large number: ");
         System.out.println(c);
     }
