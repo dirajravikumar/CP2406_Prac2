@@ -1,10 +1,12 @@
 public class InchesToFeet {
     public static void main(String[] args)
     {
-        float inches = 86, result;
-        result = inches / 12;
+        int inches = 86, feet, inch;
 
-        System.out.println("The result for inches to feet is " + result);
+        feet = inches / 12;
+        inch = inches % 12;
+
+        System.out.println("The result for inches to feet is " + feet + "\'" + inch + ".");
     }
 
 }
