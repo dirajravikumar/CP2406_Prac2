@@ -18,7 +18,7 @@ public class Eggs {
         total = (price_dozen + price_loose);
 
 
-        System.out.println("You ordered " + eggs + " eggs. That\'s " + dozen + " dozen at $3.25 per dozen and " + loose + " loose eggs at 45 cents each for a total of $" + total + ".");
+        System.out.println("You ordered " + eggs + " eggs. That\'s " + dozen + " dozen at $3.25 per dozen and " + loose + " loose eggs at 45c each for a total of $" + total + ".");
 
     }
 }
